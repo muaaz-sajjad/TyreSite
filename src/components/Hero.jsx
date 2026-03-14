@@ -46,7 +46,7 @@ export default function Hero() {
         <h1 className="hero__title">
           PREMIUM MOBILE<br />
           TYRE FITTING —<br />
-          <span className="gold-text">ANYTIME, ANYWHERE</span>
+          <span className="brand-text">ANYTIME, ANYWHERE</span>
         </h1>
 
         <p className="hero__subtitle">
@@ -99,11 +99,11 @@ export default function Hero() {
         .hero__bg { position: absolute; inset: 0; z-index: 0; }
         .hero__gradient { position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 50%, rgba(201,168,76,0.08) 0%, transparent 60%), radial-gradient(ellipse at 70% 20%, rgba(201,168,76,0.05) 0%, transparent 50%), radial-gradient(ellipse at 50% 80%, rgba(30,30,60,0.3) 0%, transparent 50%), var(--bg-primary); }
         .hero__particles { position: absolute; inset: 0; }
-        .hero__particle { position: absolute; width: 2px; height: 2px; background: var(--gold-primary); border-radius: 50%; opacity: 0; animation: particleFloat ease-in-out infinite; }
+        .hero__particle { position: absolute; width: 2px; height: 2px; background: var(--brand-primary); border-radius: 50%; opacity: 0; animation: particleFloat ease-in-out infinite; }
         @keyframes particleFloat { 0%,100% { opacity: 0; transform: translateY(0); } 50% { opacity: 0.6; transform: translateY(-30px); } }
         .hero__content { position: relative; z-index: 1; max-width: 800px; opacity: 0; transform: translateY(40px); transition: all 1s cubic-bezier(0.4,0,0.2,1); }
         .hero--visible .hero__content { opacity: 1; transform: translateY(0); }
-        .hero__badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; background: rgba(201,168,76,0.08); border: 1px solid var(--border-gold); border-radius: 50px; font-size: 0.8rem; font-weight: 500; color: var(--gold-light); margin-bottom: 32px; animation: fadeIn 1s ease 0.3s both; }
+        .hero__badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; background: rgba(201,168,76,0.08); border: 1px solid var(--border-brand); border-radius: 50px; font-size: 0.8rem; font-weight: 500; color: var(--brand-light); margin-bottom: 32px; animation: fadeIn 1s ease 0.3s both; }
         .hero__badge-dot { width: 8px; height: 8px; background: #4ade80; border-radius: 50%; animation: pulseGlow 2s infinite; box-shadow: 0 0 8px rgba(74,222,128,0.5); flex-shrink: 0; }
         .hero__title { font-size: clamp(2.2rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.03em; margin-bottom: 24px; animation: fadeIn 1s ease 0.5s both; }
         .hero__subtitle { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 40px; max-width: 600px; animation: fadeIn 1s ease 0.7s both; }
@@ -112,7 +112,7 @@ export default function Hero() {
         .hero__trust-badge { display: flex; align-items: center; gap: 6px; padding: 8px 14px; background: var(--bg-glass); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); font-size: 0.82rem; font-weight: 500; color: var(--text-secondary); backdrop-filter: blur(10px); white-space: nowrap; }
         .hero__trust-icon { font-size: 1rem; }
         .hero__scroll-indicator { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); }
-        .hero__scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--gold-primary), transparent); animation: float 2s ease-in-out infinite; }
+        .hero__scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--brand-primary), transparent); animation: float 2s ease-in-out infinite; }
 
         @media (max-width: 768px) {
           .hero { padding-top: 80px; min-height: auto; padding-bottom: 50px; }

@@ -19,7 +19,7 @@ export default function TrustContent() {
                         <span className="section-label">Why Mobiluxe Tyres</span>
                         <h2 className="trust__title">
                             Trusted Mobile Tyre Fitters Across
-                            <span className="gold-text"> London &amp; Beyond</span>
+                            <span className="brand-text"> London &amp; Beyond</span>
                         </h2>
                         <p className="trust__text">
                             A flat tyre never happens at a convenient time. Whether you&apos;re rushing to work,
@@ -48,15 +48,15 @@ export default function TrustContent() {
                         <div className="trust__card-stack">
                             <div className="trust__vcard">
                                 <div className="trust__vicon">🏆</div>
-                                <div><div className="trust__vlabel">Premium Service</div><div className="trust__vval gold-text">Since 2020</div></div>
+                                <div><div className="trust__vlabel">Premium Service</div><div className="trust__vval brand-text">Since 2020</div></div>
                             </div>
                             <div className="trust__vcard">
                                 <div className="trust__vicon">🛞</div>
-                                <div><div className="trust__vlabel">Tyres Fitted</div><div className="trust__vval gold-text">15,000+</div></div>
+                                <div><div className="trust__vlabel">Tyres Fitted</div><div className="trust__vval brand-text">15,000+</div></div>
                             </div>
                             <div className="trust__vcard">
                                 <div className="trust__vicon">⭐</div>
-                                <div><div className="trust__vlabel">Customer Rating</div><div className="trust__vval gold-text">4.9 / 5.0</div></div>
+                                <div><div className="trust__vlabel">Customer Rating</div><div className="trust__vval brand-text">4.9 / 5.0</div></div>
                             </div>
                         </div>
                     </div>
@@ -69,12 +69,12 @@ export default function TrustContent() {
         .trust__text { color: var(--text-secondary); font-size: 1rem; line-height: 1.7; margin-bottom: 16px; }
         .trust__list { list-style: none; margin: 28px 0 36px; display: grid; gap: 14px; }
         .trust__list-item { display: flex; align-items: flex-start; gap: 12px; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.5; }
-        .trust__check { width: 22px; height: 22px; border-radius: 50%; background: rgba(201,168,76,0.15); color: var(--gold-primary); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+        .trust__check { width: 22px; height: 22px; border-radius: 50%; background: rgba(201,168,76,0.15); color: var(--brand-primary); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
         .trust__actions { display: flex; gap: 12px; flex-wrap: wrap; }
         .trust__visual { display: flex; justify-content: center; }
         .trust__card-stack { display: flex; flex-direction: column; gap: 16px; width: 100%; max-width: 360px; }
         .trust__vcard { background: var(--bg-glass); backdrop-filter: blur(20px); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 24px 20px; display: flex; align-items: center; gap: 14px; transition: all var(--transition-smooth); }
-        .trust__vcard:hover { border-color: var(--border-gold); transform: translateX(8px); box-shadow: var(--shadow-gold); }
+        .trust__vcard:hover { border-color: var(--border-brand); transform: translateX(8px); box-shadow: var(--shadow-brand); }
         .trust__vicon { font-size: 1.8rem; flex-shrink: 0; }
         .trust__vlabel { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
         .trust__vval { font-size: 1.2rem; font-weight: 800; font-family: 'Outfit', sans-serif; }

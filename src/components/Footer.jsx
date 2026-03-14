@@ -12,11 +12,7 @@ export default function Footer() {
                 <div className="footer__top">
                     <div className="footer__col footer__col--brand">
                         <div className="footer__logo">
-                            <span className="footer__logo-icon">◆</span>
-                            <div>
-                                <span className="footer__brand gold-text">MOBILUXE</span>
-                                <span className="footer__brand-sub">TYRES</span>
-                            </div>
+                            <img src="/logo-transparent.png" alt="Mobiluxe Tyres Logo" className="footer__logo-img" />
                         </div>
                         <p className="footer__tagline">Premium 24/7 mobile tyre fitting across London &amp; surrounding counties.</p>
                         <div className="footer__quote-cta">
@@ -28,6 +24,9 @@ export default function Footer() {
                     <div className="footer__col">
                         <h4 className="footer__heading">Contact</h4>
                         <ul className="footer__links">
+                            <li style={{ lineHeight: '1.4', marginBottom: '8px' }}>
+                                <span>📍 {siteConfig.business.address}</span>
+                            </li>
                             <li><a href={siteConfig.business.phoneTel}>📞 {siteConfig.business.phone}</a></li>
                             <li><a href={siteConfig.business.whatsappUrl}>💬 WhatsApp</a></li>
                             <li><a href={'mailto:' + siteConfig.business.email}>✉️ Email Us</a></li>
@@ -55,7 +54,7 @@ export default function Footer() {
         .footer { background: var(--bg-secondary); padding: 60px 0 0; border-top: 1px solid var(--border-subtle); }
         .footer__top { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 36px; padding-bottom: 36px; }
         .footer__logo { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
-        .footer__logo-icon { font-size: 1.4rem; color: var(--gold-primary); }
+        .footer__logo-img { height: 140px; width: auto; object-fit: contain; }
         .footer__brand { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.15em; display: block; line-height: 1.1; }
         .footer__brand-sub { font-size: 0.55rem; letter-spacing: 0.35em; color: var(--text-muted); display: block; }
         .footer__tagline { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 20px; }
@@ -63,7 +62,7 @@ export default function Footer() {
         .footer__heading { font-size: 0.82rem; font-weight: 700; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.1em; }
         .footer__links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
         .footer__links a { font-size: 0.82rem; color: var(--text-muted); transition: color var(--transition-fast); }
-        .footer__links a:hover { color: var(--gold-primary); }
+        .footer__links a:hover { color: var(--brand-primary); }
         .footer__bottom { border-top: 1px solid var(--border-subtle); padding: 20px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
         .footer__bottom p { font-size: 0.75rem; color: var(--text-muted); }
         @media (max-width: 900px) {

@@ -77,20 +77,20 @@ export default function Reviews() {
       <style jsx>{`
         .reviews { background: var(--bg-secondary); }
         .reviews__rating-bar { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 40px; flex-wrap: wrap; }
-        .reviews__stars { color: var(--gold-primary); font-size: 1.4rem; letter-spacing: 2px; }
+        .reviews__stars { color: var(--brand-primary); font-size: 1.4rem; letter-spacing: 2px; }
         .reviews__score { font-size: 1.5rem; font-weight: 800; font-family: 'Outfit', sans-serif; }
         .reviews__count { color: var(--text-muted); font-size: 0.9rem; }
         .reviews__wrapper { position: relative; }
         .reviews__scroll { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 8px 4px 16px; -webkit-overflow-scrolling: touch; }
         .reviews__scroll::-webkit-scrollbar { display: none; }
         .reviews__card { min-width: 300px; max-width: 300px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px; cursor: default; flex-shrink: 0; }
-        .reviews__card-stars { color: var(--gold-primary); font-size: 1rem; letter-spacing: 2px; }
+        .reviews__card-stars { color: var(--brand-primary); font-size: 1rem; letter-spacing: 2px; }
         .reviews__card-text { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.65; flex: 1; }
         .reviews__card-author { display: flex; align-items: center; gap: 12px; margin-top: 8px; padding-top: 14px; border-top: 1px solid var(--border-subtle); }
-        .reviews__card-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-dark), var(--gold-primary)); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; color: #0a0a0f; flex-shrink: 0; }
+        .reviews__card-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--brand-dark), var(--brand-primary)); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; color: #0a0a0f; flex-shrink: 0; }
         .reviews__card-name { font-weight: 600; font-size: 0.85rem; }
         .reviews__card-source { display: flex; align-items: center; gap: 4px; font-size: 0.72rem; color: var(--text-muted); margin-top: 2px; }
-        .reviews__arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; background: rgba(201,168,76,0.15); border: 1px solid var(--border-gold); color: var(--gold-primary); font-size: 1.4rem; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all var(--transition-fast); backdrop-filter: blur(10px); }
+        .reviews__arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; background: rgba(201,168,76,0.15); border: 1px solid var(--border-brand); color: var(--brand-primary); font-size: 1.4rem; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all var(--transition-fast); backdrop-filter: blur(10px); }
         .reviews__arrow:hover { background: rgba(201,168,76,0.3); }
         .reviews__arrow--left { left: -20px; }
         .reviews__arrow--right { right: -20px; }

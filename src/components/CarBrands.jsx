@@ -27,9 +27,9 @@ export default function CarBrands() {
         .brands { background: var(--bg-secondary); }
         .brands__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
         .brands__item { background: var(--bg-glass); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 22px 16px; text-align: center; transition: all var(--transition-smooth); cursor: default; }
-        .brands__item:hover { border-color: var(--border-gold); background: rgba(201,168,76,0.06); }
+        .brands__item:hover { border-color: var(--border-brand); background: rgba(201,168,76,0.06); }
         .brands__name { font-family: 'Outfit', sans-serif; font-size: 0.95rem; font-weight: 600; color: var(--text-secondary); }
-        .brands__item:hover .brands__name { color: var(--gold-primary); }
+        .brands__item:hover .brands__name { color: var(--brand-primary); }
         .brands__cta { text-align: center; margin-top: 32px; }
         @media (max-width: 768px) { .brands__grid { grid-template-columns: repeat(3, 1fr); gap: 10px; } .brands__item { padding: 16px 10px; } .brands__name { font-size: 0.82rem; } }
         @media (max-width: 480px) { .brands__grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } .brands__item { padding: 14px 8px; } .brands__name { font-size: 0.78rem; } }

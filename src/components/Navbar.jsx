@@ -27,11 +27,7 @@ export default function Navbar() {
             <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
                 <div className="navbar__inner container">
                     <a href="#" className="navbar__logo">
-                        <span className="navbar__logo-icon">◆</span>
-                        <div>
-                            <span className="navbar__brand">MOBILUXE</span>
-                            <span className="navbar__brand-sub">TYRES</span>
-                        </div>
+                        <img src="/logo-transparent.png" alt="Mobiluxe Tyres Logo" className="navbar__logo-img" />
                     </a>
 
                     <ul className="navbar__links">
@@ -93,7 +89,7 @@ export default function Navbar() {
                 <div className="mobile-menu__overlay" onClick={() => setMobileOpen(false)} />
                 <div className="mobile-menu__drawer">
                     <div className="mobile-menu__header">
-                        <span className="navbar__brand gold-text">MOBILUXE TYRES</span>
+                        <img src="/logo.jpeg" alt="Mobiluxe Tyres Logo" className="navbar__logo-img" />
                         <button onClick={() => setMobileOpen(false)} className="mobile-menu__close">✕</button>
                     </div>
                     <div className="mobile-menu__links">
@@ -142,16 +138,17 @@ export default function Navbar() {
           gap: 10px;
           text-decoration: none;
         }
-        .navbar__logo-icon {
-          font-size: 1.8rem;
-          color: var(--gold-primary);
+        .navbar__logo-img {
+          height: 80px;
+          width: auto;
+          object-fit: contain;
         }
         .navbar__brand {
           font-family: 'Outfit', sans-serif;
           font-size: 1.3rem;
           font-weight: 800;
           letter-spacing: 0.15em;
-          background: var(--gold-gradient);
+          background: var(--brand-gradient);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
@@ -182,7 +179,7 @@ export default function Navbar() {
           gap: 4px;
         }
         .navbar__links a:hover {
-          color: var(--gold-primary);
+          color: var(--brand-primary);
         }
         .navbar__dropdown {
           position: relative;
@@ -218,9 +215,9 @@ export default function Navbar() {
           border-radius: 0 0 var(--radius-md) var(--radius-md);
         }
         .navbar__dropdown-item:hover {
-          color: var(--gold-primary) !important;
+          color: var(--brand-primary) !important;
           background: rgba(201, 168, 76, 0.08);
-          border-left-color: var(--gold-primary);
+          border-left-color: var(--brand-primary);
         }
         .navbar__actions {
           display: flex;
@@ -325,7 +322,7 @@ export default function Navbar() {
         }
         .mobile-menu__links a:hover {
           background: var(--bg-glass);
-          color: var(--gold-primary);
+          color: var(--brand-primary);
         }
         .mobile-menu__cta {
           margin-top: auto;

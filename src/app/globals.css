@@ -10,18 +10,18 @@
   --bg-glass: rgba(255, 255, 255, 0.05);
   --bg-glass-hover: rgba(255, 255, 255, 0.08);
 
-  --gold-primary: #c9a84c;
-  --gold-light: #e8c547;
-  --gold-dark: #a8882e;
-  --gold-glow: rgba(201, 168, 76, 0.3);
-  --gold-gradient: linear-gradient(135deg, #c9a84c, #e8c547, #c9a84c);
+  --brand-primary: #E30613;
+  --brand-light: #ff3344;
+  --brand-dark: #a0040e;
+  --brand-glow: rgba(227, 6, 19, 0.3);
+  --brand-gradient: linear-gradient(135deg, #E30613, #ff3344, #E30613);
 
   --text-primary: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --text-muted: rgba(255, 255, 255, 0.45);
 
   --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-gold: rgba(201, 168, 76, 0.3);
+  --border-brand: rgba(227, 6, 19, 0.3);
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -29,7 +29,7 @@
   --radius-xl: 28px;
 
   --shadow-card: 0 4px 30px rgba(0, 0, 0, 0.4);
-  --shadow-gold: 0 0 30px rgba(201, 168, 76, 0.15);
+  --shadow-brand: 0 0 30px rgba(227, 6, 19, 0.15);
   --shadow-elevated: 0 20px 60px rgba(0, 0, 0, 0.5);
 
   --transition-fast: 0.2s ease;
@@ -127,9 +127,9 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--gold-primary);
-  background: rgba(201, 168, 76, 0.1);
-  border: 1px solid var(--border-gold);
+  color: var(--brand-primary);
+  background: rgba(227, 6, 19, 0.1);
+  border: 1px solid var(--border-brand);
   padding: 6px 20px;
   border-radius: 50px;
   margin-bottom: 20px;
@@ -169,14 +169,14 @@ p {
 }
 
 .btn-primary {
-  background: var(--gold-gradient);
+  background: var(--brand-gradient);
   color: #0a0a0f;
-  box-shadow: 0 4px 20px var(--gold-glow);
+  box-shadow: 0 4px 20px var(--brand-glow);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(201, 168, 76, 0.4);
+  box-shadow: 0 8px 30px rgba(227, 6, 19, 0.4);
 }
 
 .btn-secondary {
@@ -188,8 +188,8 @@ p {
 
 .btn-secondary:hover {
   background: var(--bg-glass-hover);
-  border-color: var(--gold-primary);
-  color: var(--gold-light);
+  border-color: var(--brand-primary);
+  color: var(--brand-light);
 }
 
 .btn-icon {
@@ -208,14 +208,14 @@ p {
 
 .glass-card:hover {
   background: var(--bg-glass-hover);
-  border-color: var(--border-gold);
-  box-shadow: var(--shadow-gold);
+  border-color: var(--border-brand);
+  box-shadow: var(--shadow-brand);
   transform: translateY(-4px);
 }
 
-/* ---------- Gold Text ---------- */
-.gold-text {
-  background: var(--gold-gradient);
+/* ---------- Brand Text ---------- */
+.brand-text {
+  background: var(--brand-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -272,11 +272,11 @@ p {
 
   0%,
   100% {
-    box-shadow: 0 0 20px var(--gold-glow);
+    box-shadow: 0 0 20px var(--brand-glow);
   }
 
   50% {
-    box-shadow: 0 0 40px rgba(201, 168, 76, 0.4);
+    box-shadow: 0 0 40px rgba(227, 6, 19, 0.4);
   }
 }
 
@@ -405,16 +405,16 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--gold-dark);
+  background: var(--brand-dark);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--gold-primary);
+  background: var(--brand-primary);
 }
 
 /* ---------- Selection ---------- */
 ::selection {
-  background: var(--gold-primary);
+  background: var(--brand-primary);
   color: var(--bg-primary);
 }

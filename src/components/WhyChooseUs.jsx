@@ -27,8 +27,8 @@ export default function WhyChooseUs() {
             <style jsx>{`
         .why { background: var(--bg-secondary); }
         .why__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-        .why__card { background: linear-gradient(145deg, rgba(201,168,76,0.06), rgba(201,168,76,0.02)); border: 1px solid var(--border-gold); border-radius: var(--radius-lg); padding: 32px 24px; text-align: center; transition: all var(--transition-smooth); }
-        .why__card:hover { transform: translateY(-6px); box-shadow: var(--shadow-gold); }
+        .why__card { background: linear-gradient(145deg, rgba(201,168,76,0.06), rgba(201,168,76,0.02)); border: 1px solid var(--border-brand); border-radius: var(--radius-lg); padding: 32px 24px; text-align: center; transition: all var(--transition-smooth); }
+        .why__card:hover { transform: translateY(-6px); box-shadow: var(--shadow-brand); }
         .why__icon-wrap { width: 56px; height: 56px; border-radius: 50%; background: rgba(201,168,76,0.12); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
         .why__icon { font-size: 1.5rem; }
         .why__title { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }

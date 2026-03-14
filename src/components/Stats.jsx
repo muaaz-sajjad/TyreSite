@@ -46,7 +46,7 @@ export default function Stats() {
                 <div className="stats__grid">
                     {stats.map((s, i) => (
                         <div className="stats__item" key={i}>
-                            <div className="stats__value gold-text">
+                            <div className="stats__value brand-text">
                                 <AnimatedNumber value={s.value} suffix={s.suffix} decimals={s.decimals} />
                             </div>
                             <div className="stats__label">{s.label}</div>
@@ -58,7 +58,7 @@ export default function Stats() {
         .stats { background: var(--bg-primary); }
         .stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
         .stats__item { text-align: center; padding: 28px 16px; background: var(--bg-glass); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); transition: all var(--transition-smooth); }
-        .stats__item:hover { border-color: var(--border-gold); box-shadow: var(--shadow-gold); }
+        .stats__item:hover { border-color: var(--border-brand); box-shadow: var(--shadow-brand); }
         .stats__value { font-size: 2.4rem; font-weight: 900; font-family: 'Outfit', sans-serif; margin-bottom: 6px; }
         .stats__label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
         @media (max-width: 768px) { .stats__grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } .stats__value { font-size: 1.8rem; } .stats__item { padding: 20px 12px; } }

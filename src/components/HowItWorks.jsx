@@ -39,7 +39,7 @@ export default function HowItWorks() {
         .hiw__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-bottom: 40px; }
         .hiw__step { text-align: center; position: relative; }
         .hiw__num-wrap { display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
-        .hiw__num { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-dark), var(--gold-primary)); color: #0a0a0f; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; }
+        .hiw__num { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, var(--brand-dark), var(--brand-primary)); color: #0a0a0f; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; }
         .hiw__icon { font-size: 2.2rem; margin-bottom: 12px; }
         .hiw__title { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
         .hiw__desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.55; }

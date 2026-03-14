@@ -32,8 +32,8 @@ export default function Services() {
         .services__icon { font-size: 2.2rem; margin-bottom: 16px; }
         .services__title { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
         .services__desc { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px; }
-        .services__link { font-size: 0.82rem; color: var(--gold-primary); font-weight: 600; }
-        .services__card:hover .services__link { color: var(--gold-light); }
+        .services__link { font-size: 0.82rem; color: var(--brand-primary); font-weight: 600; }
+        .services__card:hover .services__link { color: var(--brand-light); }
         .services__cta { text-align: center; margin-top: 40px; }
         @media (max-width: 900px) { .services__grid { grid-template-columns: repeat(2, 1fr); gap: 16px; } }
         @media (max-width: 500px) {
