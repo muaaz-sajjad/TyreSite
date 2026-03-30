@@ -1,0 +1,16 @@
+{
+  "name": "mobiluxetyres",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "jimp": "^0.22.12",
+    "next": "^16.2.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}
