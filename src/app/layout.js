@@ -1,6 +1,8 @@
+'use client'
 import { Outfit, Inter } from "next/font/google";
 import "./globals.css";
 import StructuredData from "@/components/StructuredData";
+import Script from "next/script";
 
 const outfit = Outfit({
   variable: "--font-outfit",
