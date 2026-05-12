@@ -4,7 +4,7 @@ export const siteConfig = {
     address: '56 Percival Street BD3 9JU, Bradford',
     phone: '0207 421 7069',
     phoneTel: 'tel:02074217069',
-    whatsapp: '447425861475',
+    whatsapp: '447938365678',
     whatsappUrl: 'https://wa.me/447938365678',
     email: 'info@mobiluxetyres.co.uk',
     url: 'https://mobiluxetyres.co.uk',
