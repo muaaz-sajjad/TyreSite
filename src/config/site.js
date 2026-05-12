@@ -5,7 +5,7 @@ export const siteConfig = {
     phone: '0207 421 7069',
     phoneTel: 'tel:02074217069',
     whatsapp: '447425861475',
-    whatsappUrl: 'https://wa.me/447425861475',
+    whatsappUrl: 'https://wa.me/447938365678',
     email: 'info@mobiluxetyres.co.uk',
     url: 'https://mobiluxetyres.co.uk',
   },
